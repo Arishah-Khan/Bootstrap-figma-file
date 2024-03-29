@@ -68,11 +68,17 @@
 
 .custom-heading1 {
     font-family: "Poppins";
-    font-size: 57px;
-    font-weight: 600;
-    line-height: 80.4px;
+    font-size: 40px;
+    font-weight: 400;
     text-align: left;
     color: #000000;
+}
+@media screen and (min-width:768px) {
+    .custom-heading1{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 80.4px;
+    }
 }
 
 .custom-para {
@@ -84,16 +90,8 @@
     color: #000000;
 }
 
-.custom-img {
-    background-color: #FFFFFF;
-}
 .img {
     width: 100%;
-}
-
-.image {
-    width: 60%;
-
 }
 
 .custom-padding {
@@ -111,17 +109,214 @@
 
 .custom-card-heading {
     font-family: "Poppins";
-    font-size: 45px;
+    font-size: 22px;
     font-weight: 600;
-    line-height: 60px;
-    text-align: left;
+    line-height: 30px;
+    margin: 25px 0px;
 }
 
-.custom-margin {
-    margin: 80px 0px;
-    padding: 0px 30px;
+.custom-h2 {
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33.6px;
+
 }
-.custom-margins{
-    margin: 100px 0px ;
-    padding: 0px 30px;
+
+.custom-lorem {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+
+
+
+}
+
+@media screen and (min-width:768px) {
+    .custom-card-heading {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .custom-h2 {
+        font-size: 28px;
+    }
+
+    .custom-lorem {
+        width: 70%;
+    }
+
+}
+
+.bg-color {
+
+    background: #1F1F1F;
+    box-shadow: 0px 2px 4px 2px #000000;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.bg-width {
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (min-width:768px) {
+    .bg-color {
+        width: 40px;
+        height: 40px;
+    }
+
+    .bg-width {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+.custom-num {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.custom-transfer {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.custom-card-heading2 {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 45.6px;
+    text-align: left;
+
+}
+
+@media screen and (min-width:768px) {
+    .custom-transfer {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .custom-card-heading2 {
+        font-size: 32px;
+    }
+}
+
+.width {
+    width: 50%;
+}
+
+.btn-book {
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+    border-radius: 40px;
+    background: #1F1F1F;
+    color: #FFFFFF;
+
+}
+
+.btn-read {
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px solid #BEBEBE;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.plus {
+
+    font-family: "Poppins";
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 80.4px;
+
+}
+
+@media screen and (min-width:768px) {
+
+    .btn-book {
+        padding: 15px 35px 15px 35px;
+    }
+
+    .btn-read {
+        padding: 15px 35px 15px 35px;
+    }
+
+    .plus {
+        font-size: 57px;
+    }
+}
+
+.height {
+    height: 90%;
+}
+
+.custom-placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #FEFEFF;
+    color: #000000;
+    padding: 11px 25px 11px 25px;
+    gap: 10px;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    width: 250px;
+}
+.btn-quote {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FEFEFF;
+    background: #1F1F1F;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 40px;
+    position: absolute;
+    left: 220px;
+
+}
+@media screen and (min-width:0px) and (max-width:480px){
+    .btn-quote {
+        padding: 10px;
+        left: 180px;
+        font-size: 13px;
+    }
+    .custom-placeholder{
+         padding: 11px 10px 11px 15px;
+         width: 180px;
+    }
+    
+}
+
+
+@media screen and (min-width:481px){
+    .btn-quote {
+        padding: 10px 20px 10px 20px;
+        left: 280px;
+        font-size: 16px;
+
+    }
+    .custom-placeholder{
+         padding: 11px 10px 11px 15px;
+         width: 300px;
+    }
+    
 }
